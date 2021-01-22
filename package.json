@@ -1,0 +1,26 @@
+{
+  "name": "waltraud",
+  "version": "0.0.1",
+  "description": "A simple OGC Web Map Service (WMS) client written in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/**/*.test.ts",
+    "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test"
+  },
+  "author": "Sebastian Bechtold, GeoNet.MRN e.V.",
+  "license": "MIT",
+  "types": "index.d.ts",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.22",
+    "xml-js": "^1.6.11"
+  }
+}
