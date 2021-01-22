@@ -1,4 +1,4 @@
-# What is Waldtraud.js?
+# What is Waltraud.js?
 
 Waltraud.js is planned to become a small collection of utility classes and functions for Node.js to exctract information from OGC Web Map Service (WMS) and Map Feature Service (WFS) capabilities documents, and perhaps a bit more in the farther away future.
 
