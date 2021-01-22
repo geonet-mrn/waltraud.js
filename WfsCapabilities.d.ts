@@ -1,4 +1,4 @@
-export declare class WmsCapabilities {
+export declare class WfsCapabilities {
     private xmlString;
     document: any;
     constructor(xmlString: string);
